@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles\cart.css">
+    <script src="https://kit.fontawesome.com/32f181d7c4.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- Header Start -->
+    <div id="header">
+        <div id="top">
+            <div id="left">
+                <div id="email">
+                    <a href="signup.html">EMAIL SIGN UP</a>
+                </div>
+                <div id="find">
+                    <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg">
+                    <input id="search" type="text" placeholder="SEARCH">
+                </div>
+            </div>
+            <div id="center">
+                <div id="title">
+                    <a href="index.html"><img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png"></a>
+                </div>
+                <div id="tabs">
+                    <div><a href="/new.html">NEW</a></div>
+                    <div><a href="best.html">BESTSELLERS</a></div>
+                    <div><a href="face.html">FACE</a></div>
+                    <div><a href="/makeup.html">MAKEUP</a></div>
+                    <div><a href="skinCare.html">SKINCARE</a></div>
+                    <div><a href="virtual.html">VIRTUAL SERVICES</a></div>
+                    <div><a href="DISCOVER.html">DISCOVER</a></div>
+                </div>
+            </div>
+            <div id="right">
+                <div>
+                    <div><a href="login.html">JOIN BB<u>ACCESS</u></a></div>
+                    <div class="rightImage"><a href=""><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg"></a></div>
+                    <div class="rightImage"><a href="login.html"><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg"></a></div>
+                    <div class="rightImage" ><a href="cart.html"><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Box Start -->
+    <div id="box">
+        <!-- Left Box Start -->
+        <div id="leftBox">
+            <img src="https://www.bobbibrowncosmetics.com/media/export/cms/offers/BB_Banner_Loyalty_728x90.jpg">
+            <div class="boxTitle">
+                <p class="boxHead">SHOPPING BAG</p>
+            </div>
+            <div class="backgroundGrey">
+                <p>Enjoy Free Standard Shipping on any $65+ order.</p>
+            </div> 
+
+            <!-- Creation of Cart -->
+            <div class="cartOptions">
+                <div>
+                    <button class="whiteButton">CONTINUE SHOPPING</button>
+                </div>
+                <div>
+                    <a><img src="https://www.bobbibrowncosmetics.com/media/images/checkout/paypal.png"></a>
+                </div>
+                <div>OR</div>
+                <div>
+                    <a href="success.html"><button class="blackButton">CHECKOUT</button></a>
+                </div>
+            </div>
+            <!-- Additon of Cart Items -->
+            <table id="table">
+                <thead id="tableHead">
+                    <tr>
+                        <td>PRODUCT</td>
+                        <td></td>
+                        <td>QUANTITY</td>
+                        <td>PRICE</td>
+                        <td id="rightAlign">TOTAL</td>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+            <!-- Checkout -->
+            <div class="checkout">
+                <div class="leftCheck">
+                    <p>SUBTOTAL</p>
+                    <select>
+                        <option>Standard (3-5 business days)</option>
+                    </select>
+                </div>
+                <div class="rightCheck">
+                    <p id="grandTotal">0</p>
+                    <p class="shipping">FREE</p>
+                </div>
+            </div>
+            <div  class="checkout2">
+                <div class="leftCheck">ESTIMATED TOTAL</div>
+                <div class="rightCheck" id="Total">0</div>
+            </div>
+            <div class="checkout3">
+                <p>Pay $0 Now<br>First Payment 2 Weeks From Purchase<br>4 interest-free installments with</p>
+                <img src="https://www.bobbibrowncosmetics.com/media/images/checkout/afterpay-logo-black.png">
+            </div>
+            <div class="cartOptions">
+                <div>
+                    <button class="whiteButton">CONTINUE SHOPPING</button>
+                </div>
+                <div>
+                    <a><img src="https://www.bobbibrowncosmetics.com/media/images/checkout/paypal.png"></a>
+                </div>
+                <div>OR</div>
+                <div>
+                    <a href="success.html"><button class="blackButton">CHECKOUT</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- Left Box End -->
+
+        <!-- Right Box Start -->
+        <div id="rightBox">
+            <div id="rightBox1">
+                <p class="boxHead">OFFER CODE</p>
+                <div class="boxInput">
+                    <input type="text" placeholder="Offer Code">
+                </div>
+                
+                <div id="offerBox">
+                    <p>One offer code per order</p>
+                    <button class="whiteButton">SEE ALL OFFERS</buton>
+                </div>
+                <button class="blackButton">APPLY</button>
+                <div id="getPoints">
+                   <p>Join BB Access <br>and earn points with your purchase today.</p> 
+                </div>
+                <div id="Price">
+                    <div class="PriceTable">
+                        <div>SUB TOTAL</div>
+                        <div id="subTotal">0</div>
+                    </div>
+                    <div class="PriceTable">
+                        <div>SHIPPING METHOD</div>
+                        <div class="shipping">FREE</div>
+                    </div>
+                    <div class="PriceTable totalPrice">
+                        <div>ESTIMATED TOTAL</div>
+                        <div id="total">0</div>
+                    </div>
+                </div>
+                <div>
+                    <p>Pay $0 Now<br>First Payment 2 Weeks From Purchase<br>4 interest-free installments with</p>
+                </div>
+                <img src="https://www.bobbibrowncosmetics.com/media/images/checkout/afterpay-logo-black.png">
+                
+            </div>
+            <div id="rightBox2">
+                <p class="boxHead">DONATE</p>
+                <hr>
+                <img src="https://www.bobbibrowncosmetics.com/media/export/cms/products/80x80/bb_prod_555877_80x80_0.jpg">
+                <select>
+                    <option>BCRF DONATION</option>
+                    <option>SHE'S THE FIRST</option>
+                </select>
+                <p>Donate today to The Breast Cancer Research Foundation to support life-saving research. <a class="colorGrey" href="">Learn More</a> about BCRF.</p>
+                <i class="fa-solid fa-circle"></i></i></i><button>$1.00</button> <i class="fa-regular fa-circle"></i><button>$5.00</button><i class="fa-regular fa-circle"> </i><button>$10.00</button>
+                <div class="rightLast"><button class="blackButton">ADD TO BAG</button></div>
+            </div>
+        </div>
+        <!-- Right Box End -->
+    </div>
+    
+    <!-- Footer Start -->
+    <div id="footer">
+        <div id="footerBottom">
+            <div>
+                <p>© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+            </div>
+            <div id="bottomTabs">
+                <div>
+                    <div><a>Terms & Conditions</a></div>
+                    <div><a>California Do Not Sell My Personal Information</a></div>
+                    <div><a>Accessibility</a></div>
+                </div>
+                <div>
+                    <div><a>Interest Based Ads</a></div>
+                    <div><a>Privacy Policy</a></div>
+                </div>
+                <div id="bottomIcon"><img src="https://www.bobbibrowncosmetics.com/media/images/global/bobbi_access_icon.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+</body>
+</html>
+
+<script src="Scripts\cart.js"></script>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Styles\login.css">
+    <script src="https://kit.fontawesome.com/32f181d7c4.js" crossorigin="anonymous"></script>
+    <title>Cosmetics | Bobbi Brown Cosmetics</title>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div id="header">
+        <div id="top">
+            <div id="left">
+                <div id="email">
+                    <a href="signup.html">EMAIL SIGN UP</a>
+                </div>
+                <div id="find">
+                    <img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Search-White.svg">
+                    <input id="search" type="text" placeholder="SEARCH">
+                </div>
+            </div>
+            <div id="center">
+                <div id="title">
+                    <a href="index.html"><img src="https://www.bobbibrowncosmetics.com/media/export/cms/logo.png"></a>
+                </div>
+                <div id="tabs">
+                    <div><a href="/new.html">NEW</a></div>
+                    <div><a href="best.html">BESTSELLERS</a></div>
+                    <div><a href="face.html">FACE</a></div>
+                    <div><a href="/makeup.html">MAKEUP</a></div>
+                    <div><a href="skinCare.html">SKINCARE</a></div>
+                    <div><a href="virtual.html">VIRTUAL SERVICES</a></div>
+                    <div><a href="DISCOVER.html">DISCOVER</a></div>
+                </div>
+            </div>
+            <div id="right">
+                <div>
+                    <div><a href="login.html">JOIN BB<u>ACCESS</u></a></div>
+                    <div class="rightImage"><a href=""><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Location-White.svg"></a></div>
+                    <div class="rightImage"><a href="login.html"><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/MyAccount-White.svg"></a></div>
+                    <div class="rightImage" ><a href="cart.html"><img src="https://www.bobbibrowncosmetics.com/sites/bobbibrown/themes/bb_base/img/icons/svg/Bag-White.svg"></a></div>
+                </div>
+            </div>
+        </div>
+        <div id="discount">
+            <p>Get 15% off your first order plus free shipping everyday when you join BB Access</p>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+
+    <!-- sign in -->
+    
+    <div class="ACCOUNT">
+        <div class="newaccount">
+            <p class="normal">ALREADY HAVE AN ACCOUNT?</p>
+            <p class="normal" style="font-size: larger;color: black;">CONTINUE</p>
+            <div class="inpt">
+                <input id="loginEmail" type="text" class="inputtype" placeholder="*Email Address"  />
+
+            </div>
+            <div class="Ninpt">
+                
+                <input id="loginPassword" type="text" class="inputtype" placeholder="*Password" />
+                
+
+            </div>
+            <div class="fpdiv">
+                <a class="Fpassword" href="#" data-test-id="form_signin_forgot_pwd">Forgot your password?</a>
+            </div>
+            
+            
+            <div class="B">
+                <button onclick="checkLogin()">COUNTNUE</button>
+            </div>
+            <div class="lin"></div>
+
+        </div>
+        
+        <div class="newaccount2">
+            <p class="normal">DON'T HAVE AN ACCOUNT?</p>
+            <p class="normal" style="font-size: larger;color: black;">CREATE & JOIN BB<u>ACCESS</u></p>
+            <div class="inpt">
+                <input id="email1" type="text" class="inputtype" placeholder="*Email Address" />
+
+            </div>
+            <div class="Ninpt">
+                
+                <input id="password" type="password" class="inputtype" placeholder="*Password"/>
+                <div ><a class="showp cursor" onclick="showPassword()" >Show Password?</a></div>
+                
+
+            </div>
+            <div>
+                <p>When is your birthday?</p>
+            </div>
+            <div>
+                <select id="month" class="selectmonth">
+                    <option>MONTH</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <select id="day" class="selectday">
+                <option>DAY</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            </div>
+                <div class="Self">
+            <p> <input type="checkbox" class="checkbox" name="SMSPROMO_SMS_PROMOTIONS" value="1" >
+                <span style="color: black;">
+                Yes, I want to join BB Access. By clicking ‘Join Now’ I agree to BB Access<a class="atag"> Terms & Conditions, </a>
+                Bobbi Brown <a class="atag">Privacy Policy</a> and, if I am a California resident, the Notice of <a class="atag">Financial 
+                    Incentive</a>. I also agree to the Bobbi Brown <a class="atag">Terms and Conditions</a>
+                </span>
+            </p>
+            
+            
+        </div>
+        <div class="SSelf">
+            <p> <input type="checkbox" class="checkbox" name="SMSPROMO_SMS_PROMOTIONS" value="1" >
+                <span style="color: black;">
+                By clicking "Sign Up", I agree to the Bobbi Brown <a class="atag">Terms and Conditions</a> and <a class="atag">Privacy Policy</a>.
+
+                </span>
+            </p>
+            
+            
+        </div>
+        <div class="B">
+            <button class="cursor" onclick="createLogin()">SIGN UP</button>
+            </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="lin2">
+        <h4 style="margin-left: 400px; margin-top: -10px;">OR</h4>
+        <div class="lin3"></div>
+    </div>
+    <div class="Bdiv">
+        <div style="margin-left: 300px;">
+            <p>By clicking “Continue with Facebook”, I agree to Bobbi Brown’s <a class="atag">Terms and Conditions</a> and <a class="atag">Privacy Policy</a>.</p>
+        </div>
+        <div style="margin-left: 300px;">
+            <p> <input type="checkbox" class="checkbox" name="SMSPROMO_SMS_PROMOTIONS" value="1" >
+                <span style="color: black;">
+                    Yes! I would like to receive the Bobbi Brown Email Newsletter.
+
+                </span>
+                </p>
+        </div>
+
+    </div>
+    <div class="Fbutton">
+        <button><i class="fa-brands fa-facebook" style="font-size: 25px; padding-right: 7px;"></i>  Continue With Facebook</button>
+    </div>
+    
+
+    <!-- Footer Start -->
+    <div id="footer">
+        <div id="footerContents">
+            <div id="footerLeft">
+                <div>
+                    <p class="bold">NEED HELP?</p>
+                    <div><a href="" class="mediumFont">Chat with an Artist</a></div>
+                    <div><a href="" class="titleTop">Text An Artist</a></div>
+                    <div><a href="" class="titleTop">Call Us (877)-310-9222</a></div>
+                    <div><a href="" class="titleTop">Shipping & Returns</a></div>
+                    <div><a href="" class="titleTop">FAQS</a></div>
+                    <div><a href="" class="titleTop">Careers</a></div>
+                    <select class="blackOption">
+                        <option>CHOOSE LOCATION</option>
+                    </select>
+                </div>
+                <div>
+                    <p class="bold">MY BOBBI BROWN</p>
+                    <div><a href="" class="titleTop">BB Access</a></div>
+                    <div><a href="" class="titleTop">My Account</a></div>
+                    <div><a href="" class="titleTop">My Orders</a></div>
+                    <div><a href="" class="titleTop">Store Locator</a></div>
+                </div>
+            </div>
+            <div id="footerRight">
+                <div id="input">
+                    <input type="text" class="blackInput blackSubmit" placeholder="ENTER YOUR EMAIL">
+                    <input type="number" class="blackInput blackSubmit" placeholder="ENTER YOUR MOBILE PHONE">
+                    <button class="blackSubmit">SUBMIT</button>
+                    <div>
+                        <p class="bold gap">FOLLOW US</p>
+                        <i class="fa-brands fa-facebook-f footerIcons"></i>
+                        <i class="fa-brands fa-twitter footerIcons"></i>
+                        <i class="fa-brands fa-youtube footerIcons"></i>
+                        <i class="fa-brands fa-instagram footerIcons"></i>
+                        <i class="fa-brands fa-pinterest footerIcons"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerBottom">
+            <div>
+                <p>© Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+            </div>
+            <div id="bottomTabs">
+                <div>
+                    <div><a>Terms & Conditions</a></div>
+                    <div><a>California Do Not Sell My Personal Information</a></div>
+                    <div><a>Accessibility</a></div>
+                </div>
+                <div>
+                    <div><a>Interest Based Ads</a></div>
+                    <div><a>Privacy Policy</a></div>
+                </div>
+                <div id="bottomIcon"><img src="https://www.bobbibrowncosmetics.com/media/images/global/bobbi_access_icon.jpg"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    
+</body>
+</html>
+
+
+
+
+<script src="Scripts\login.js"></script>
